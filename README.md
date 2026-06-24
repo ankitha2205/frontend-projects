@@ -1,25 +1,62 @@
-# Frontend UI Projects
+# Frontend Projects
 
-A collection of small frontend UI projects I build while learning **HTML, CSS and JavaScript**.
+A collection of frontend projects built while learning **HTML, CSS, and JavaScript**. This repository showcases my progress in web development through hands-on projects focused on UI design, layouts, responsiveness, and modern styling techniques.
 
-## Projects
+---
+
+## 🚀 Projects
 
 ### 1. Coffee Login Page
 
-Simple login page with:
+A simple and clean login page featuring:
 
-* Background image
-* Centered form
-* Footer
-* Basic styling
+- Background image
+- Centered login form
+- Footer section
+- Modern UI styling
 
 ### 2. Pricing Cards
 
-Responsive pricing section with:
+A responsive pricing section with:
 
-* Three pricing plans (Basic, Pro, Premium)
-* Hover animation effects
-* Card scaling interaction
-* Modern UI design using Flexbox
+- Three pricing plans (Basic, Pro, Premium)
+- Hover animation effects
+- Card scaling interaction
+- Flexbox-based layout
+- Modern pricing card design
 
-More projects will be added as I continue learning.
+### 3. Shoe Product Card
+
+A modern product showcase card featuring:
+
+- Product image display
+- Discounted pricing section
+- Size selection UI
+- Color selection UI
+- Hover effects and transitions
+- Flexbox-based layout
+- Modern product card design
+
+---
+
+## 💻 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Learning)
+- Git
+- GitHub
+
+---
+
+## 📌 Future Projects
+
+More frontend projects will be added as I continue learning and improving my web development skills.
+
+---
+
+## 👩‍💻 Author
+
+**Ankitha**
+
+GitHub: https://github.com/ankitha2205
