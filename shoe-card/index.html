@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Card</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .root {
+        width: 800px;
+        height: 600px;
+        display: flex;
+        background-image: url(images/bg.png);
+        justify-content: center;
+        align-items: center;
+        background-color: #252831;
+      }
+      .product {
+        width: 680px;
+        height: 400px;
+        display: flex;
+        background-color: #2a2f40;
+      }
+      .left {
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 50% 50% 0px;
+        background-color: rgb(249, 98, 43);
+        position: relative;
+      }
+      .shoe-img {
+        width: 450px;
+        position: absolute;
+        top: 50px;
+        left: -90px;
+      }
+      .right {
+        width: 50%;
+        color: white;
+        padding: 10px;
+        font-family: Mulish;
+      }
+      .logo {
+        color: rgb(249, 98, 43);
+        font-size: 30px;
+        font-weight: 300;
+      }
+      .content {
+        margin-top: 80px;
+      }
+      .wm {
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+      }
+      .w {
+        font-size: 24px;
+        font-weight: 200;
+      }
+      .m {
+        font-size: 30px;
+        font-weight: 350;
+        margin-top: 20px;
+      }
+      .price {
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      .price1 {
+        font-size: 20px;
+      }
+      .price2 {
+        font-size: 23px;
+        text-decoration: line-through;
+        text-decoration-color: red;
+      }
+      .size span {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        margin-right: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .num:hover {
+        border-radius: 50%;
+        background-color: beige;
+        color: black;
+      }
+      .color {
+        display: flex;
+        gap: 26px;
+        margin-top: 15px;
+        align-items: center;
+      }
+      .yellow {
+        width: 15px;
+        height: 15px;
+        background-color: yellow;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .black {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .red {
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .footer {
+        display: flex;
+        gap: 50px;
+        line-height: 60px;
+        margin-top: 15px;
+        margin-left: 15px;
+        align-items: center;
+      }
+      .footer button {
+        padding: 10px 20px;
+        border-radius: 7px;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .footer button:hover {
+        background-color: rgb(249, 98, 43);
+        border-color: rgb(249, 98, 43);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">
+      <div class="product">
+        <div class="left">
+          <img class="shoe-img" src="images/shoe.png" alt="shoe" />
+        </div>
+        <div class="right">
+          <span class="logo">Airmax</span>
+          <div class="content">
+            <div class="wm">
+              <span class="w">Winter Collection</span>
+              <span class="m">Men Black Sneakers</span>
+            </div>
+            <div class="price">
+              <span class="price1">$150</span> <span class="price2">$200</span>
+            </div>
+            <div class="size">
+              <span>size</span> <span class="num">7</span>
+              <span class="num">8</span> <span class="num">9</span>
+              <span class="num">10</span> <span class="num">11</span>
+            </div>
+            <div class="color">
+              <span>color</span>
+              <div class="yellow"></div>
+              <div class="black"></div>
+              <div class="red"></div>
+            </div>
+            <div class="footer">
+              <button>Buy Now</button> <button>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
