@@ -38,23 +38,28 @@ A modern product showcase card featuring:
 - Modern product card design
 
 ---
-# Apple Product Card
+### 4. Apple Product Card
 
- This project showcases a clean product layout inspired by e-commerce websites, featuring product details, pricing, color selection, and interactive hover effects.
+A modern product showcase card featuring:
 
----
-
-## ✨ Features
-
-- Modern product card layout
 - Product image with overlapping design
 - Product name and pricing section
 - Color selection preview
 - Product benefits list
 - "Add to Cart" button
-- Built using Flexbox and CSS positioning
+- Hover effects and smooth transitions
+- Built using HTML, CSS, Flexbox, and CSS Positioning
 
 ---
+### 5. Profile Card
+
+A modern profile card featuring:
+
+- Gradient background
+- Circular profile image
+- Social media icons
+- Hover animations
+- Built using HTML, CSS, and Font Awesome
 ## 💻 Technologies Used
 
 - HTML5
