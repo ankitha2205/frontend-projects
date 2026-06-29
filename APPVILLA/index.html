@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APPVILLA</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        color: white;
+        overflow-x: hidden;
+        font-size: 15px;
+      }
+      .home {
+        width: 100%;
+        height: 100vh;
+        background-color: #ff6b81;
+      }
+      .header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .logo {
+        width: 150px;
+        margin-left: 50px;
+      }
+      .compo {
+        list-style: none;
+        color: white;
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+      }
+      .get-it-now {
+        width: 140px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        margin-right: 50px;
+        transition: all 0.5s ease;
+      }
+      .get-it-now:hover {
+        background-color: white;
+        color: #ff6b81;
+      }
+      .hero {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        padding-top: 80px;
+      }
+      .left {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 170px;
+      }
+      .name {
+        width: 400px;
+        color: white;
+        font-size: 30px;
+        font-weight: 800;
+      }
+      .desc {
+        width: 500px;
+        color: white;
+        font-size: 14px;
+      }
+      .buttons {
+        display: flex;
+        gap: 30px;
+      }
+      .buttons > :nth-child(1) {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        color: #ff6b81;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        transition: all 0.5s ease;
+      }
+      .buttons > :nth-child(1):hover {
+        background-color: black;
+        color: white;
+      }
+      .buttons > :nth-child(2) {
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 15px;
+        transition: all 0.5s ease;
+      }
+      .buttons > :nth-child(2):hover {
+        background-color: white;
+        color: #ff6b81;
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .right img {
+        width: 550px;
+        padding-left: 150px;
+      }
+      .features {
+        color: black;
+        padding: 80px;
+        padding-bottom: 100px;
+      }
+      .top-f {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .f-name {
+        font-size: 14px;
+        font-weight: 600;
+        color: #ff6b81;
+        margin-bottom: 10px;
+      }
+      .f-text {
+        font-size: 30px;
+        font-weight: 800;
+        width: 600px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .f-desc {
+        font-size: 14px;
+        color: rgb(228, 215, 215);
+        width: 650px;
+        text-align: center;
+      }
+      .bottom-f {
+        width: 100%;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        margin-top: 30px;
+      }
+      .card {
+        box-shadow:
+          rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+          rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+      }
+      .card:hover {
+        box-shadow:
+          rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+          rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-top: -5px;
+      }
+
+      .card-1 {
+        width: 50px;
+        height: 50px;
+        background-color: #ff6b81;
+        border-radius: 7px;
+
+        box-shadow:
+          rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      }
+      .card-name {
+        font-size: 17px;
+        font-weight: 600;
+      }
+      .card-desc {
+        font-size: 15px;
+        color: rgb(133, 128, 128);
+      }
+    </style>
+  </head>
+  <body>
+    <!--Home-->
+    <div class="home">
+      <!--Header-->
+      <div class="header">
+        <img class="logo" src="images/white-logo.svg" alt="logo" />
+        <ul class="compo">
+          <li>Home</li>
+          <li>Features</li>
+          <li>OverView</li>
+          <li>Pricing</li>
+          <li>Team</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+        <button class="get-it-now">Get It Now</button>
+      </div>
+      <!--Hero-->
+      <div class="hero">
+        <div class="left">
+          <p class="name">A Powerful App For Your Business</p>
+          <p class="desc">
+            From open source to pro services, Piqes helps you to build, deploy,
+            test, and monitor apps.
+          </p>
+          <div class="buttons">
+            <button>App Store</button>
+            <button>Google Play</button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/phone.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--Features-->
+    <div class="features">
+      <div class="top-f">
+        <p class="f-name">Features</p>
+        <p class="f-text">Your Experience Gets Better And Better Over Time.</p>
+        <p class="f-desc">
+          There are many variations of passages of Lorem lpsum available, but
+          the majority have suffered alteration in some form.
+        </p>
+      </div>
+      <div class="bottom-f">
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1"></div>
+          <p class="card-name">Push to deploy</p>
+          <p class="card-desc">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page at its layout.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

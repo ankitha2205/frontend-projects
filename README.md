@@ -15,6 +15,8 @@ A simple and clean login page featuring:
 - Footer section
 - Modern UI styling
 
+---
+
 ### 2. Pricing Cards
 
 A responsive pricing section with:
@@ -24,6 +26,8 @@ A responsive pricing section with:
 - Card scaling interaction
 - Flexbox-based layout
 - Modern pricing card design
+
+---
 
 ### 3. Shoe Product Card
 
@@ -38,6 +42,7 @@ A modern product showcase card featuring:
 - Modern product card design
 
 ---
+
 ### 4. Apple Product Card
 
 A modern product showcase card featuring:
@@ -51,6 +56,7 @@ A modern product showcase card featuring:
 - Built using HTML, CSS, Flexbox, and CSS Positioning
 
 ---
+
 ### 5. Profile Card
 
 A modern profile card featuring:
@@ -60,6 +66,23 @@ A modern profile card featuring:
 - Social media icons
 - Hover animations
 - Built using HTML, CSS, and Font Awesome
+
+---
+
+### 6. AppVilla Landing Page *(Work in Progress)*
+
+A modern SaaS landing page inspired by the AppVilla website featuring:
+
+- Fixed navigation bar
+- Hero section with call-to-action buttons
+- Features section with responsive cards
+- Flexbox and CSS Grid layouts
+- Smooth hover animations
+- Modern UI design
+- Built using HTML and CSS
+
+---
+
 ## 💻 Technologies Used
 
 - HTML5
