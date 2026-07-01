@@ -83,6 +83,19 @@ A modern SaaS landing page inspired by the AppVilla website featuring:
 
 ---
 
+7. Restaurant Website UI
+
+A responsive restaurant landing page featuring:
+
+Hero section with restaurant name and description
+Food menu displayed using grid layout
+Food cards with image, name, description, and price
+Responsive design for all screen sizes
+Modern UI with background image styling
+Built using HTML and CSS (Flexbox + Grid)
+
+---
+
 ## 💻 Technologies Used
 
 - HTML5
