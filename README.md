@@ -87,12 +87,26 @@ A modern SaaS landing page inspired by the AppVilla website featuring:
 
 A responsive restaurant landing page featuring:
 
-Hero section with restaurant name and description
-Food menu displayed using grid layout
-Food cards with image, name, description, and price
-Responsive design for all screen sizes
-Modern UI with background image styling
-Built using HTML and CSS (Flexbox + Grid)
+- Hero section with restaurant name and description
+- Food menu displayed using grid layout
+- Food cards with image, name, description, and price
+- Responsive design for all screen sizes
+- Modern UI with background image styling
+- Built using HTML and CSS (Flexbox + Grid)
+
+---
+
+8.Glassmorphism Login Page
+
+A modern responsive login page built using HTML and CSS, featuring glassmorphism design, gradients, and responsive layout.
+
+- Glassmorphism UI design (backdrop-filter)
+- Gradient background shapes
+- Fully responsive layout (mobile + tablet + desktop)
+- Smooth hover effects
+- Flexbox-based centering
+- Background image support (optional)
+- Styled buttons (Login, Google, Facebook)
 
 ---
 
