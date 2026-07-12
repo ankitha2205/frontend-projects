@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <h2>🏦 MyBank</h2>
+
+        <div class="profile">
+            <img src="images/profile.png">
+            <h3>Ankitha</h3>
+            <p>Premium Account</p>
+        </div>
+
+
+        <nav>
+            <a href="#">🏠 Dashboard</a>
+            <a href="#">💳 Accounts</a>
+            <a href="#">💰 Transactions</a>
+            <a href="#">💵 Loans</a>
+            <a href="#">⚙ Settings</a>
+            <a href="#">🚪 Logout</a>
+        </nav>
+
+    </aside>
+
+
+
+    <!-- Main Content -->
+
+    <main class="dashboard">
+
+
+        <!-- Header -->
+
+        <header>
+
+            <input type="text" placeholder="Search...">
+
+            <div class="user">
+                🔔
+                <span>Ankitha</span>
+            </div>
+
+        </header>
+
+
+
+        <!-- Balance Cards -->
+
+        <section class="cards">
+
+            <div class="card balance">
+                <h4>Total Balance</h4>
+                <h2>₹1,25,000</h2>
+                <p>+2.5% this month</p>
+            </div>
+
+
+            <div class="card">
+                <h4>Income</h4>
+                <h2>₹50,000</h2>
+                <p>Salary</p>
+            </div>
+
+
+            <div class="card">
+                <h4>Expenses</h4>
+                <h2>₹20,000</h2>
+                <p>Monthly</p>
+            </div>
+
+
+            <div class="card">
+                <h4>Savings</h4>
+                <h2>₹75,000</h2>
+                <p>Saved</p>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Bank Card -->
+
+        <section class="bank-card">
+
+            <h3>VISA</h3>
+
+            <h2>4321 5678 9012 3456</h2>
+
+            <div>
+                <span>Ankitha</span>
+                <span>12/28</span>
+            </div>
+
+        </section>
+
+
+
+        <!-- Transactions -->
+
+
+        <section class="transaction">
+
+            <h2>Recent Transactions</h2>
+
+
+            <table>
+
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+
+
+                <tr>
+                    <td>12 July</td>
+                    <td>Amazon</td>
+                    <td class="expense">-₹2500</td>
+                    <td><span class="paid">Paid</span></td>
+                </tr>
+
+
+                <tr>
+                    <td>10 July</td>
+                    <td>Salary</td>
+                    <td class="income">+₹50000</td>
+                    <td><span class="received">Received</span></td>
+                </tr>
+
+
+                <tr>
+                    <td>08 July</td>
+                    <td>Netflix</td>
+                    <td class="expense">-₹500</td>
+                    <td><span class="paid">Paid</span></td>
+                </tr>
+
+
+            </table>
+
+
+        </section>
+
+
+
+        <!-- Quick Actions -->
+
+        <section class="actions">
+
+            <button>Transfer Money</button>
+            <button>Pay Bills</button>
+            <button>Add Money</button>
+            <button>Request Loan</button>
+
+        </section>
+
+
+    </main>
+
+</div>
+
+
+</body>
+</html>

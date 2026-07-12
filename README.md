@@ -108,6 +108,26 @@ A modern responsive login page built using HTML and CSS, featuring glassmorphism
 - Background image support (optional)
 - Styled buttons (Login, Google, Facebook)
 
+---  
+
+## 9. Banking Dashboard UI
+
+A modern banking dashboard interface built using HTML and CSS, featuring a clean layout for managing account information, transactions, and banking activities.
+
+Features:
+
+- Responsive banking dashboard layout
+- Sidebar navigation menu
+- User profile section
+- Account balance cards
+- Income, expense, and savings overview cards
+- Debit card UI design with gradient styling
+- Recent transactions table
+- Quick action buttons
+- Hover effects and smooth transitions
+- Responsive design for desktop and mobile screens
+- Built using HTML5, CSS3, Flexbox, and CSS Grid
+
 ---
 
 ## 💻 Technologies Used
