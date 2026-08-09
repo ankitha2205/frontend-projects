@@ -1,6 +1,11 @@
 const userNumber = document.getElementById("userNumber");
 const submitBtn = document.getElementById("submit-btn");
 
+const score = {
+  win: 0,
+  lose: 0,
+};
+
 const onClick = () => {
   const userValue = Number(userNumber.value);
 
@@ -9,11 +14,16 @@ const onClick = () => {
     return;
   }
 
-  const computerNumber = Math.floor(Math.random() * 100) + 1;
+  const computerNumber = Math.floor(Math.random() * 10) + 1;
   if (userValue === computerNumber) {
-    alert("You won!");
+    score.win++;
+    alert(`🎉 You won! Score: win = ${score.win}, lose = ${score.lose}`);
   } else {
-    alert(`You lose. Computer picked ${computerNumber}. Try again...`);
+    score.lose++;
+    alert(
+      `❌ You lose. Computer picked ${computerNumber}. Score: win = ${score.win}, lose = ${score.lose}`,
+    );
   }
 };
+
 submitBtn.addEventListener("click", onClick);
