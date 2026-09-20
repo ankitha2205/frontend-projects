@@ -119,7 +119,6 @@ An interactive quiz app built with HTML, CSS, and JavaScript:
 ## 📌 Future Projects
 More frontend projects will be added as I continue learning and improving my web development skills.
 
-----
 
 ## 👩‍💻 Author
 **Ankitha**  
