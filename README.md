@@ -96,7 +96,7 @@ A JavaScript-based tool to generate random color palettes:
 - Click to copy hex values to clipboard
 - Visual feedback with Font Awesome icons
 
----
+-
 
 ### 11. 🧩 Quiz Game
 An interactive quiz app built with HTML, CSS, and JavaScript:
